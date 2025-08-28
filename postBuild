@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
 set -e
-echo "Chromium:"
-chromium --version || true
-echo "Chromedriver:"
-chromedriver --version || true
+firefox --version || true
+geckodriver --version || true
