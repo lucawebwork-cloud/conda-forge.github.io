@@ -4,8 +4,6 @@ channels:
 dependencies:
   - python=3.11
   - selenium>=4.22
-  - chromium
-  - chromedriver
-  - pip
-  - pip:
-      - webdriver-manager   # opzionale
+  - firefox
+  - geckodriver
+
