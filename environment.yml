@@ -1,8 +1,7 @@
 name: binder
-channels:
-  - conda-forge
+channels: [conda-forge]
 dependencies:
   - python=3.11
-  - selenium>=4.22
-  - firefox
-  - geckodriver
+  - pip
+  - pip:
+      - playwright
