@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -e
-firefox --version || true
-geckodriver --version || true
+python -m playwright install chromium
+
