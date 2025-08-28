@@ -6,4 +6,3 @@ dependencies:
   - selenium>=4.22
   - firefox
   - geckodriver
-
